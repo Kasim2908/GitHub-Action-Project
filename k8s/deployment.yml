@@ -1,0 +1,19 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: focus-tracker-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: focus-tracker
+  template:
+    metadata:
+      labels:
+        app: focus-tracker
+    spec:
+      containers:
+        - name: focus-tracker
+          image: mohammadkasim/focus-tracker:latest
+          ports:
+            - containerPort: 80
