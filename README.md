@@ -1,6 +1,6 @@
-# Focus Tracker — DevOps Portfolio Site
+# End-to-End DevOps Implementation on Kubernetes
 
-A production-grade static portfolio website for a DevOps Engineer, containerized with Docker (multi-stage build), deployed on Kubernetes, and delivered via a fully automated CI/CD pipeline using GitHub Actions and ArgoCD.
+A complete DevOps workflow showcasing Docker-based containerization, CI/CD pipelines, GitOps deployment using Argo CD, and monitoring integration.
 
 ---
 
